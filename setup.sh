@@ -28,5 +28,6 @@ brew install github
 source ${MY_DIR}/scripts/common/common-apps.sh
 
 # Dev environments
-
 source ${MY_DIR}/scripts/environments/golang.sh
+source ${MY_DIR}/scripts/environments/git.sh
+source ${MY_DIR}/scripts/environments/terminal.sh

@@ -6,25 +6,32 @@ echo
 echo "Installing apps"
 
 # Utilities
-brew install postman
+brew install postman tailscale vim
+brew install --cask itsycal
+
+# Window Managment
+brew install --cask rectangle
 
 # Terminals
 brew install iterm2 tmux
 
 # Browsers
-brew install firefox chrome
+brew install firefox google-chrome
 
 # Communication
 brew install slack
 
 # Miscellaneous
-brew install spotify vlc adobe-acrobat-reader pandoc
+# brew install spotify vlc adobe-acrobat-reader pandoc
 
 # Xcode CLT
 xcode-select --install
 
 # Install kubernetes
 brew install kubectl kind kube-capacity kubectx
+
+# Install Visual Studio Code
+brew install --cask visual-studio-code
 
 # Install helm
 brew install helm
@@ -56,7 +63,7 @@ brew install --cask docker
 brew install bash-completion
 brew install docker-completion
 brew install docker-compose-completion
-brew install docker-machine-completion
+brew install docker-machine
 
 brew cleanup
 
