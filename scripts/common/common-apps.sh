@@ -23,6 +23,7 @@ brew install slack
 
 # Miscellaneous
 # brew install spotify vlc adobe-acrobat-reader pandoc
+brew install battery
 
 # Xcode CLT
 xcode-select --install
@@ -64,6 +65,13 @@ brew install bash-completion
 brew install docker-completion
 brew install docker-compose-completion
 brew install docker-machine
+
+# Install docker-compose
+brew install docker-componse
+
+# Install nvm
+brew install nvm
+
 
 brew cleanup
 
